@@ -56,6 +56,26 @@ a {
     /* text-align: center; */
     color: #575f66;
 }
+.control {
+    display: flex;
+    margin-top: 38px;
+    /* margin-left: auto; */
+    gap: 0 18px;
+}
+.control__btn {
+    border: 1px solid #575f66;
+    outline: none;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    color: #000;
+    cursor: pointer;
+}
+.control__btn:hover {
+    background-color: #2e80ce;
+    color: #fff;
+}
 /* Header */
 .header {
     padding: 30px 0 110px 0;
@@ -387,7 +407,8 @@ a {
 }
 /* members */
 .members {
-    margin-top: 170px;
+    margin-top: 85px;
+    padding: 85px 0;
 }
 .members__header {
     text-align: center;
@@ -428,4 +449,43 @@ a {
     line-height: 1.86;
     text-align: center;
     color: #575f66;
+}
+.members__control {
+    align-items: center;
+    justify-content: center;
+}
+/* install */
+.install {
+    margin-top: 85px;
+}
+.install_inner {
+    padding: 0 70px;
+    background-color: #2e80ce;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0 160px; */
+    align-items: center;
+}
+.install__image {
+    display: block;
+    margin-top: -95px;
+}
+.install__content {
+    width: 586px;
+}
+.install__desc,
+.install__heading {
+    color: #fff;
+}
+.install__heading {
+    max-width: 489px;
+}
+.install__desc {
+    width: 586px;
+}
+.install__row {
+    display: flex;
+    gap: 0 28px;
+    margin-top: 38px;
 }
