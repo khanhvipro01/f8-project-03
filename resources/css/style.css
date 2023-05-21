@@ -553,3 +553,34 @@ a {
     line-height: 1.28;
     color: #10375c;
 }
+/* appointment */
+.appointment {
+    margin-top: 170px;
+}
+.appointment__inner {
+    background-color: #f6fbff;
+    padding: 100px 179px;
+    text-align: center;
+}
+.appointment__heading {
+    position: relative;
+}
+.appointment__heading::before {
+    content: "";
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.appointment__desc {
+    display: inline-block;
+    text-align: center;
+    width: 617px;
+    margin-top: 36px;
+}
+.appointment__btn {
+    margin-top: 53px;
+}
